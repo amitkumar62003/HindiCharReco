@@ -6,6 +6,40 @@ __pycache__/
 # C extensions
 *.so
 
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+.env
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Node / frontend
+node_modules/
+.next/
+out/
+dist/
+
+# Model artifacts (optional if very large)
+# *.h5
+# *.keras
+
+# VS Code
+.vscode/
+
 # Distribution / packaging
 .Python
 build/
